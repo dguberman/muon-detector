@@ -1,0 +1,8 @@
+#!/bin/sh
+USER=sgrinschpun
+HOST=ifaews01.pic.es
+DIR=muon-detector   # might sometimes be empty!
+
+hugo && rsync -avz --delete public/ ${USER}@${HOST}:~/${DIR}
+
+exit 0

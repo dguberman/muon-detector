@@ -16,7 +16,7 @@ theme = "hugo-simpledoc-theme"
 [[menu.top]]
     name = "Muon Detector GitHub Repository"
     weight = 20
-    url = "https://github.com/aerohub/hugo-simpledoc-theme"
+    url = "https://github.com/IFAE/muon-detector"
 
 # Site parameters
 [params]
