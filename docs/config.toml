@@ -1,0 +1,36 @@
+# Site settings
+baseURL = "http://ifaews01.pic.es/muon-detector/"
+languageCode = "en-us"
+title = "Muon Detector Documentation"
+
+theme = "hugo-simpledoc-theme"
+
+[blackfriday]
+  angledQuotes = true
+  fractions = false
+  plainIDAnchors = true
+  smartlists = true
+  extensions = ["hardLineBreak"]
+
+# Top menu
+[[menu.top]]
+    name = "Muon Detector GitHub Repository"
+    weight = 20
+    url = "https://github.com/aerohub/hugo-simpledoc-theme"
+
+# Site parameters
+[params]
+
+    # Meta
+    description = "Muon detector"
+    author = ""
+    keywords = ""
+
+    # Header
+    # If not set, site title and meta description will be shown.
+    # You may use markdown here
+    headerTitle = "Muon Detector"
+    headerDescription = "A DIY muon detector based on SiPM"
+
+    # Back-to-top button name
+    bttButton = ""
