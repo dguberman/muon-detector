@@ -9,7 +9,7 @@ theme = "hugo-simpledoc-theme"
   angledQuotes = true
   fractions = false
   plainIDAnchors = true
-  smartlists = true
+  smartlists = false
   extensions = ["hardLineBreak"]
 
 # Top menu
